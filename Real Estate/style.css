@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+  
+/* CSS for li items */
+li{
+    list-style: none;
+}
+  
+/* CSS for a tags */
+a{
+    text-decoration: none;
+}
+  
+/* CSS for button */
+button{
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+}
+  
+body{
+    background-color: #f6f8fa;
+}
+  
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./Photos/mainBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+}
+  
+/* CSS for Navigation Menu */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+  
+nav img{
+    height: 45px;
+    width: 120px;
+}
+  
+nav ul{
+    display: flex;
+    align-items: center;
+}
+  
+nav ul li a{
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: 18px;
+}
+  
+hr{
+    margin: 0 100px;
+}
+  
+/* CSS fpr div present inside Header */
+header div{
+    color: #ffffff;
+    margin-left: 150px;
+    margin-top: 85px;
+}
+  
+header div h1{
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+  
+header div p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    width: 410px;
+}
+  
+/* CSS for multiple Logos */
+.Multiple-Logos{
+    background-color: #fff;
+    margin: 0 35px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+}
+  
+.Multiple-Logos img{
+    width: 156px;
+    height: 38px;
+}
+  
+/* CSS for Section of Cards */
+.Cards-Section h1{
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+  
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+  
+/* CSS for Card image */
+.Card{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+  
+/* CSS for different margin top value to position cards */
+.Cards div:nth-child(2){
+    margin-top: 50px;
+}
+.Cards div:nth-child(3){
+    margin-top: 100px;
+}
+.Cards div:nth-child(4){
+    margin-top: 160px;
+}
+.Cards div:nth-child(5){
+    margin-top: 100px;
+}
+.Cards div:nth-child(6){
+    margin-top: 40px;
+}
+.Cards div:nth-child(7){
+    margin-top: 40px;
+}
+.Cards div:nth-child(8){
+    margin-top: 100px;
+}
+.Cards div:nth-child(9){
+    margin-top: 160px;
+}
+  
+.Card img{
+    width: 366px;
+    height: 400px;
+    border-radius: 20px;
+}
+  
+/* CSS for card box of card */
+.Card-Box{
+    width: 326px;
+    height: 121px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+    position: absolute;
+    bottom: -60px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.Card-Box button{
+    font-weight: 800;
+    font-size: 15px;
+    width: 114px;
+    height: 52px;
+}
+  
+.Card-Box div h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.Card-Box div p{
+    font-weight: 800;
+    font-size: 20px;
+    color: #6663e8;
+    text-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+}
+  
+/* CSS for both the features section */
+.Features-Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+  
+.Features-Section div{
+    width: 50%;
+}
+  
+.First-Feature-Section div:first-child img:first-child {
+    position: absolute;
+    left: -80px;
+    z-index: -1;
+    width: 726px;
+    height: 456px;
+}
+  
+.Features-Section div:first-child img:last-child{
+    position: relative;
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    bottom: 55px;
+    left: 110px;
+}
+  
+/* CSS for Second div of Feature Box */
+.Features-Section h1{
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+  
+.Features-Section p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #585c65;
+    margin-bottom: 40px;
+    max-width: 80%;
+}
+  
+.Features-Section button{
+    font-weight: 700;
+}
+  
+/* CSS for Second Feature Section */
+.Second-Feature-Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.Second-Feature-Section div{
+    width: 50%;
+}
+  
+.Second-Feature-Section div:last-child{
+      position: relative;
+}
+  
+.Second-Feature-Section div:last-child img:first-child{
+    position: absolute;
+    right: 0;
+    width: 726px;
+    height: 456px;
+    bottom: -220px;
+}
+  
+.Second-Feature-Section div:last-child img:last-child{
+    position: absolute;
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    right: 135px;
+    bottom: -110px;
+}
+  
+.Second-Feature-Section div:first-child{
+    padding: 0 50px;
+}
+  
+.Second-Feature-Section div:first-child h1{
+    width: 90%;
+}
+  
+  /* designing the newsletter section */
+.Newsletter{
+    margin: 100px 70px;
+    background: #6663e9;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 70px 0;
+    color: #ffffff;
+    text-align: center;
+}
+  
+.Newsletter h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+  
+.Newsletter p{
+    font-weight: 400;
+    font-size: 18px;
+    width: 55%;
+}
+  
+/* CSS for form */
+.Newsletter form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+  
+.Newsletter form div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #5654d1;
+    border-radius: 40px;
+    width: 468px;
+    height: 61px;
+    padding: 0 20px;
+}
+  
+.Newsletter form input{
+    background-color: transparent;
+    border: none;
+}
+  
+.Newsletter form button{
+    background: #ffffff;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    width: 174px;
+    height: 61px;
+    color: #6663e9;
+}
+  
+/* CSS for footer */
+footer{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 100px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+  
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+  
+footer div:first-child img{
+    width: 150px;
+}
+  
+footer div:first-child div img{
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+  
+footer div:first-child p{
+    width: 323px;
+    font-weight: 400;
+    font-size: 20px;
+}
+  
+/* CSS for Footer Links */
+.Footer-Links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 150px;
+    margin-right: 70px;
+}
+  
+.Footer-Links-Content{
+    display: flex;
+    flex-direction: column;
+}
+  
+.Footer-Links-Content ul li a{
+    color: black;
+}
+  
+.Footer-Links-Content ul li:first-child{
+    font-weight: 700;
+    font-size: 20px;
+}
+  
+.Footer-Links-Content ul li{
+      margin-bottom: 25px;
+}
